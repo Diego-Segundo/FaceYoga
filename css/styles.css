@@ -84,6 +84,13 @@ body{
   width: 25.5rem;
   height: 15.5rem;
   }
+
+
+  .testimonial-img{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+  }
 /* Navigation Bar*/
 
 
@@ -169,6 +176,12 @@ body{
   padding:0 2%
 }
 
+/* Call to action*/
+
+.cta-button:hover{
+background-color:#000;
+
+}
 footer{
   text-align:center;
 }
