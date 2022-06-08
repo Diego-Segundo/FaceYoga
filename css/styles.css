@@ -67,7 +67,7 @@ body{
 @media (max-width:390px){
 
   .big-heading{
-    font-size:1.5rem;
+    font-size:2rem;
 
   }
 
@@ -99,11 +99,11 @@ body{
     width: 20rem;
     height: 8rem;
     position:relative;
-    right:38%;
+    right:40%;
 
       }
       .title-img{
-        text-align:left;
+        text-align:right;
         right:5rem;
         width:50%;
 
@@ -143,9 +143,20 @@ body{
       .navbar{
       padding-bottom: 2rem;
 }
-}
+
 .nav-item{
   padding:0 18px;
+
+}
+
+.navbar-brand{
+  font-size:2rem;
+}
+}
+
+.nav-item{
+  padding:0 18px;
+
 }
 
 
@@ -205,9 +216,23 @@ body{
   height:40%;
 }
 
+@media (max-width:390px){
+  .profile{
+    border-radius: 3%;
+    width:80%;
+    height:80%;
+  }
+}
+
 /* Price Section*/
 .price-section {
   padding:100px
+}
+
+@media (max-width:390px){
+  .price-section {
+    padding:60px
+  }
 }
 .price-column{
   padding: 3% 2%;
