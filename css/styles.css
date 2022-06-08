@@ -65,12 +65,22 @@ body{
 }
 
 @media (max-width:390px){
-  .title-img{
-    text-align:left;
-    position:relative;
-    right:5rem;
-    }
+
+  .big-heading{
+    font-size:1.5rem;
+
+  }
+
+  .row .small-container{
+    font-family:"Montserrat, san-serif";
+    font-weight:900;
+    line-height:1;
+    padding-bottom:2%;
+    width:50%;
+
 }
+
+  }
 
 
 
@@ -84,12 +94,37 @@ body{
   width: 25.5rem;
   height: 15.5rem;
   }
+@media (max-width:390px){
+  .logo-img{
+    width: 20rem;
+    height: 8rem;
+    position:relative;
+    right:38%;
+
+      }
+      .title-img{
+        text-align:left;
+        right:5rem;
+        width:50%;
+
+        }
+
+
+    }
+
+
 
 .testimonial-img{
     width:10%;
     border-radius:100%;
     margin:20px;
   }
+
+
+.test-border{
+  border-radius:100%;
+
+}
 /* Navigation Bar*/
 
 
@@ -104,6 +139,11 @@ body{
   padding:0 0 4.5rem;
 }
 
+@media (max-width:390px){
+      .navbar{
+      padding-bottom: 2rem;
+}
+}
 .nav-item{
   padding:0 18px;
 }
@@ -116,7 +156,11 @@ body{
 .download-button{
   margin:5% 3% 5% 0;
 }
-
+@media (max-width:390px){
+.download-button{
+  font-size:1rem;
+}
+}
 /*Testimonials*/
 
 .test-sec{
@@ -156,7 +200,9 @@ body{
   margin:0;
 }
 .profile{
-  border-radius: 20%;
+  border-radius: 3%;
+  width:40%;
+  height:40%;
 }
 
 /* Price Section*/
